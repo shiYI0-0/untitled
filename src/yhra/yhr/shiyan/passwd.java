@@ -8,7 +8,10 @@ public class passwd {
         Random r=new Random();
         for (int i = 0; i < 10; i++) {
             int aa=r.nextInt(99)+1;
-            System.out.println(aa);
+            if(aa/2==0){
+                System.out.println("aa");
+            }
+ //           System.out.println(aa);
         }
 
 
